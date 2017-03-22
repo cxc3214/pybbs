@@ -1,6 +1,7 @@
 spring:
   freemarker:
     cache: false
+    prefer-file-system-access: false
   datasource:
     url: jdbc:mysql://localhost/pybbs-springboot?useSSL=false&characterEncoding=utf8
     username: root
